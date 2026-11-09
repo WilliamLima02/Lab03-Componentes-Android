@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'ao.co.isptec.aplm.phonestatereceiver'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'ao.co.isptec.aplm.phonestatereceiver'
+        minSdk 26
+        targetSdk 32
+        versionCode 1
+        versionName '1.0'
+    }
+}
+\ndependencies {\n    implementation 'androidx.core:core:1.15.0'\n}\n
